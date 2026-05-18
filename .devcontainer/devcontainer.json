@@ -1,0 +1,31 @@
+{
+  "name": "quiet-edge-5194b7",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "."
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "installZsh": false
+    },
+    "ghcr.io/devcontainers/features/github-cli:1": {
+      "version": "latest"
+    }
+  },
+  "postStartCommand": "bash /usr/local/bin/start.sh",
+  "postAttachCommand": "show-link.sh",
+  "portsAttributes": {
+    "443": {
+      "label": "quiet-edge-5194b7",
+      "protocol": "http",
+      "onAutoForward": "silent",
+      "visibility": "public"
+    }
+  },
+  "forwardPorts": [
+    443
+  ],
+  "hostRequirements": {
+    "cpus": 2
+  }
+}
