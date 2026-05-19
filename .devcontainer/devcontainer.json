@@ -1,5 +1,5 @@
 {
-  "name": "quiet-edge-5194b7",
+  "name": "bold-mesh-b00d72",
   "build": {
     "dockerfile": "Dockerfile",
     "context": "."
@@ -16,7 +16,7 @@
   "postAttachCommand": "show-link.sh",
   "portsAttributes": {
     "443": {
-      "label": "quiet-edge-5194b7",
+      "label": "bold-mesh-b00d72",
       "protocol": "http",
       "onAutoForward": "silent",
       "visibility": "public"
