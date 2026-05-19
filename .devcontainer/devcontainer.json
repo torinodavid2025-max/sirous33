@@ -1,5 +1,5 @@
 {
-  "name": "bold-mesh-b00d72",
+  "name": "iron-link-49a3f0",
   "build": {
     "dockerfile": "Dockerfile",
     "context": "."
@@ -16,7 +16,7 @@
   "postAttachCommand": "show-link.sh",
   "portsAttributes": {
     "443": {
-      "label": "bold-mesh-b00d72",
+      "label": "iron-link-49a3f0",
       "protocol": "http",
       "onAutoForward": "silent",
       "visibility": "public"
